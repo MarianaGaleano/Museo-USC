@@ -767,6 +767,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 33269321}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &46628028 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: afca8e99b164e6644aa7aef42c7d7b61, type: 3}
+  m_PrefabInstance: {fileID: 1396664890}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &48798687
 GameObject:
   m_ObjectHideFlags: 0
@@ -7952,7 +7957,7 @@ GameObject:
   - component: {fileID: 1081974612}
   - component: {fileID: 1081974611}
   m_Layer: 0
-  m_Name: piso
+  m_Name: Piso sala 1 y 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8038,12 +8043,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1081974610}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0264, y: -6.77, z: 0.2419}
-  m_LocalScale: {x: 1.6542355, y: 1, z: 5.1094356}
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
+  m_LocalPosition: {x: 46.61474, y: -57.993984, z: -40.349415}
+  m_LocalScale: {x: 11.36805, y: 4.969493, z: 48.601505}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 46628028}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1083196950
 GameObject:
@@ -10756,7 +10761,10 @@ PrefabInstance:
     m_RemovedGameObjects:
     - {fileID: 65702495048144492, guid: afca8e99b164e6644aa7aef42c7d7b61, type: 3}
     - {fileID: -8700617353114198275, guid: afca8e99b164e6644aa7aef42c7d7b61, type: 3}
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: afca8e99b164e6644aa7aef42c7d7b61, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1081974614}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: afca8e99b164e6644aa7aef42c7d7b61, type: 3}
 --- !u!4 &1405555916 stripped
@@ -16467,4 +16475,3 @@ SceneRoots:
   - {fileID: 1396664890}
   - {fileID: 2086826283}
   - {fileID: 2146198113}
-  - {fileID: 1081974614}
